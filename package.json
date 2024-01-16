@@ -1,0 +1,26 @@
+{
+  "name": "backgammon-detector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "npx @u4/opencv4nodejs --incDir /opt/homebrew/Cellar/opencv/4.8.1_5/include --libDir /opt/homebrew/Cellar/opencv/4.8.1_5/lib --binDir /opt/homebrew/Cellar/opencv/4.8.1_5/bin --nobuild rebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "opencv4nodejs": {
+    "disableAutoBuild": 1,
+    "autoBuildOpencvVersion": "4.8.1_5",
+    "opencvIncludeDir": "/opt/homebrew/Cellar/opencv/4.8.1_5/include",
+    "opencvLibDir": "/opt/homebrew/Cellar/opencv/4.8.1_5/lib",
+    "opencvBinDir": "/opt/homebrew/Cellar/opencv/4.8.1_5/bin"
+  },
+  "dependencies": {
+    "@u4/opencv-build": "^0.7.8",
+    "@u4/opencv4nodejs": "^6.5.2",
+    "jimp": "^0.22.10",
+    "opencv-build": "^0.1.9",
+    "opencv4nodejs": "^5.6.0"
+  }
+}
